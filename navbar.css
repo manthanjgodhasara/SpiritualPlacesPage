@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 55px;
+    background-color: #ebede4;
+    line-height: 50px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    line-height: 50px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 30px;
+    font-size: 25px;
+    color: #0984e3;
+
+}
+
+.logo{
+    float: left;
+    border: none;
+    background-color: #ebede4;
+    cursor: pointer;
+    height: 100%;
+}
+
+#logo{
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+    float: left;
+    margin-left: 10px;
+}
+
+.Trips{
+    float: right;
+    margin-right: 10px;
+}
+
+#user{
+    width: 35px;
+    height: 35px;
+    margin: 10px auto;
+    margin-right: 10px;
+    float: right;
+    
+}
+
+#title{
+    font-size: 20px;
+    float: left;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    color: #0984e3;
+    letter-spacing: 1mm;
+    margin-left: 10px;
+}
+
+.sidenav{
+    position: absolute;
+    top: 55px;
+    left: 0;
+    height: 188vh;
+    width: 225px;
+    background-color: #ebede4;
+    transition: transform 250ms ease-in-out;
+}
+
+.visiting{
+    background: #0984e3;
+}
+
+.disappear{
+    transform: translateX(-100%);
+}
+
+.appear{
+    transform: translateX(0%);
+}
+
+.menu{
+    display: block;
+    font-size: 20px;
+    transition: all 100ms ease-in-out;
+}
+
+.menu:hover{
+    background-color: #54a0ff;
+    color:white;
+    cursor: pointer;
+}
+
+p{
+    margin-left: 20px;
+}
+
+
+.card_container{
+     display: grid;
+     width: 900px;
+     min-height: 615px;
+     margin-top: 10px;
+     margin-left: 300px;
+     margin-right: auto;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-gap: 25px;
+     grid-column-gap: 40px;
+}
+
+
+img{
+    width: 100%;
+    height: 150px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.card{
+    background: white;
+    text-align: center;
+    border-radius: 5px; 
+    box-shadow: 0 0 3px; 
+    position: relative;
+    margin-bottom: 7px;
+}
+
+.heart{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: all 100ms ease-in-out;
+}
+
+.liked{
+    background: palevioletred;
+}
+
+i{
+    z-index: 3;
+    font-size: 20px;
+    color: black;
+    padding: auto;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+
+.name{
+    margin-top: 15px;
+}
+
+.location{
+    margin-top: 10px;
+}
+
+.explore{
+    margin: 20px auto;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    border: 2px solid #0984e3;
+    padding: 8px 15px;
+    border-radius: 10px;
+    color: #0984e3;
+    font-size: 15px;
+    transition: all 250ms ease-in-out;
+}
+
+.explore:hover{
+    color: white;
+    background-color: #0984e3;
+}
+
